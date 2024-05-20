@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Three.js - Fundamentals</title>
+</head>
+<body>
+    <canvas id="c"></canvas>
+</body>
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    #c {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+</style>
+<script type="importmap">
+{
+    "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.163.0/build/three.module.js",
+        "MTLLoader": "https://cdn.jsdelivr.net/npm/three@0.163.0/examples/jsm/loaders/MTLLoader.js",
+        "OBJLoader": "https://cdn.jsdelivr.net/npm/three@0.163.0/examples/jsm/loaders/OBJLoader.js",
+        "OrbitControls": "https://cdn.jsdelivr.net/npm/three@0.163.0/examples/jsm/controls/OrbitControls.js"
+    }
+}
+</script>
+<script type="module" src="script.js"></script>
+</html>
