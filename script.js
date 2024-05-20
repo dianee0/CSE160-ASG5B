@@ -50,25 +50,25 @@ function main() {
     });
 
     const marbleLoader = new THREE.TextureLoader();
-    const marble = marbleLoader.load('/resources/marble.png', () => {
+    const marble = marbleLoader.load('../CSE160-ASG5B/resources/marble.png', () => {
         // Update rendering when texture loads
         renderer.render(scene, camera);
     });
 
     const oldWoodLoader = new THREE.TextureLoader();
-    const oldWood = oldWoodLoader.load('/resources/oldwood.jpeg', () => {
+    const oldWood = oldWoodLoader.load('../CSE160-ASG5B/resources/oldwood.jpeg', () => {
         // Update rendering when texture loads
         renderer.render(scene, camera);
     });
 
     const rugTextureLoader = new THREE.TextureLoader();
-    const rugTexture = rugTextureLoader.load('/resources/rug.jpeg', () => {
+    const rugTexture = rugTextureLoader.load('../CSE160-ASG5B/resources/rug.jpeg', () => {
         // Update rendering when texture loads
         renderer.render(scene, camera);
     });
 
     const wallTextureLoader = new THREE.TextureLoader();
-    const wallTexture = wallTextureLoader.load('/resources/beigeWall.jpeg', () => {
+    const wallTexture = wallTextureLoader.load('../CSE160-ASG5B/resources/beigeWall.jpeg', () => {
         // Update rendering when texture loads
         renderer.render(scene, camera);
     });
